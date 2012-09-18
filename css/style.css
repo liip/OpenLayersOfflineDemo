@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+#map {
+    width:320px;
+    height:480px;
+}
+#map {
+    border: 1px solid black;
+}
+#button,
+#debug {
+    z-index: 999;
+    position: absolute;
+    left: 10px;
+}
+#debug {
+    top: 450px;
+    text-align: center;
+}
+#button {
+    top: 10px;
+}

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>OSM Local Tiles</title>
+        <link rel="stylesheet" href="lib/theme/default/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script type="text/javascript" src="lib/OpenLayers.js"></script>
+        <script type="text/javascript" src="lib/proj4js-combined.js"></script>
+        <script type="text/javascript" src="js/offline-websql.js"></script>
+        <script type="text/javascript" src="js/offline.js"></script>
+        <script type="text/javascript" src="local.js"></script>
+        <script type="text/javascript" src="proxy.js"></script>
+    </head>
+
+    <!-- body.onload is called once the page is loaded (call the 'init' function) -->
+    <body onload="init();">
+
+        <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+        <div id="map"></div>
+        <!-- define a DIV into which the debug output will appear -->
+        <div id="debug">
+            <label for="lon">lon: </label><input type="text" id="lon" name="lon"/>
+            <label for="lat">lat: </label><input type="text" id="lat" name="lat"/>
+        </div>
+        <!-- define a DIV into which the debug output will appear -->
+        <div id="button">
+            <input type="button" id="download" name="download" value="download"/>
+        </div>
+
+    </body>
+
+</html>
