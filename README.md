@@ -1,12 +1,12 @@
 # OpenLayers offline demo
 
-This small code example how to extend OpenLayers with offline storage.
+This small code example shows how to extend OpenLayers with offline storage.
 
 Currently only WMS and WFS Layers are supported.
 
-To keep the code base small only only one storage class is provided.
+To keep the code base small only one storage class is provided.
 
-The provided OpenLayers.Offline class does the Offline magic.
+The provided OpenLayers.Offline class does the offline magic.
 
 # How to run this demo
 
